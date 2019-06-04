@@ -1,0 +1,47 @@
+/* components/header/header.wxss */
+
+.content{
+  display: flex;
+  margin-top: 20rpx;
+}
+
+.logo{
+  flex: 7;
+  margin-left: 10rpx; 
+}
+
+.logo image{
+  width: 140rpx;
+  height: 60rpx;
+}
+
+.search{
+  flex: 2;
+  display: flex;
+}
+
+.search image{
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.phone{
+  flex: 1;
+  display: flex;
+}
+
+.phone image{
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.btn-download{
+  flex: 2;
+  display: inline-block;
+  width: 100rpx;
+  height: 60rpx;
+  font-size: 28rpx;
+  color: white;
+  background-color: pink;
+  margin: 0 10rpx;
+}

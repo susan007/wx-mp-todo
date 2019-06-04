@@ -1,0 +1,46 @@
+<view>
+<!--标题-->
+<header></header>
+<!--导航栏-->
+<view>
+<scroll-view scroll-x="true" class="nav-bar">
+  <view bindtap='activeNav' data-index="{{index}}" class="nav-item {{index === currentIndex ? 'active' : ''}}"  wx:for="{{navList}}" wx:key="{{index}}">
+  {{item.text}}
+  </view>
+</scroll-view>
+</view>
+<!--轮播图-->
+<view>
+  <swiper autoplay indicator-dots circular>
+    <swiper-item wx:for="{{swiperList}}" wx:key="{{index}}">
+      <navigator>
+        <image style='width:100%;height:100%;' mode="widthFix" src='{{item.imgSrc}}'></image>
+      </navigator>
+    </swiper-item>
+  </swiper>
+</view>
+<!--视频列表-->
+<view class='video-wrap'>
+  <navigator class='video-item' wx:for="{{videoList}}" wx:key="{{index}}" url="../video/video?id={{item.id}}">
+    <view class='video-img'>
+      <!--图片-->
+      <image mode="widthFix" class="video-img-image" src='{{item.imgSrc}}'></image>
+      <!--评论及播放量-->
+      <view class='video-info'>
+        <view style='display:inline-block;padding:0 10rpx;'>
+        <icon type="search" color='white' size='16'/>
+        播放：{{item.playCount}}
+      </view>
+      <!--评论数-->
+      <view style='display:inline-block;padding:0 10rpx;'>
+        <icon type="download" color='white' size='16'/>
+        评论：{{item.commentCount}}
+      </view>
+      </view>
+    </view>
+    <!--描述-->
+    <view style='font-size:32rpx;'>{{item.desc}}</view>
+  </navigator>
+</view>
+  
+</view>

@@ -1,0 +1,18 @@
+<!--标题组件-->
+<view class='content'>
+  <!--bilibili标志-->
+  <view class='logo'>
+    <image src='../../icon/logo2.png'></image>
+  </view>
+  <!--搜索按钮-->
+  <view class='search'>
+    <image src='../../icon/search.png'></image>
+  </view>
+  <!--下载app小电视-->
+  <view class='phone'>
+    <image src='../../icon/user.png'></image>
+  </view>
+  <!--下载app按钮-->
+  <button class='btn-download'>下载 APP</button>
+  
+</view>

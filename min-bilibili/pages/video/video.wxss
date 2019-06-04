@@ -1,0 +1,12 @@
+/* pages/video/video.wxss */
+
+.video{
+  width: 96%;
+  margin: 2% 2%;
+  border-radius: 2%;
+}
+
+.tip{
+  border-bottom: 1px solid #eee;
+  padding: 20rpx 10rpx;
+}
