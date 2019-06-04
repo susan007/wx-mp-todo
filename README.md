@@ -17,9 +17,9 @@
 ![uni-app](./wx-uni.gif)
 
 ### min-mpvue
-![小程序码](./wx-min.jpeg)
+![小程序码](./wx-min.jpg)
 ![小花纯粹房贷计算器](./wx-mpvue.gif)
 
-## 相关链接
-[我与小程序二三事]()
+## 详细说明
+[我与小程序二三事](https://susan007.github.io/SOURCE/%E5%B0%8F%E7%A8%8B%E5%BA%8F.html)
 
