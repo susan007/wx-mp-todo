@@ -1,0 +1,36 @@
+<template name="34651e01">
+  <view class="_div data-v-4860e2de">
+    <van-popup style="background-color: #3cc51f;z-index: 999999" show="{{showPopup}}" position="bottom" bindclose="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_van-popup data-v-4860e2de">
+      <van-picker columns="{{columns}}" bindchange="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_van-picker data-v-4860e2de"></van-picker>
+    </van-popup>
+    <van-tabs wx:if="{{showTabs}}" type="card" color="#10AEFF" active="{{active}}" bindchange="handleProxy" data-eventid="{{'11'}}" data-comkey="{{$k}}" class="_van-tabs data-v-4860e2de">
+      <van-tab title="{{principal}}" class="_van-tab data-v-4860e2de"></van-tab>
+      <van-tab title="{{capital}}" class="_van-tab data-v-4860e2de"></van-tab>
+      <view class="_div data-v-4860e2de conetnt">
+        <view class="_div data-v-4860e2de tip">月供(元)</view>
+        {{monthMoney}}
+      </view>
+      <view class="_div data-v-4860e2de tip-top" style><label class="_span data-v-4860e2de">支付利息(元)</label> <label style="float: right" class="_span data-v-4860e2de">还款总额(元)</label></view>
+      <view class="_div data-v-4860e2de tip-bottom" style><label class="_span data-v-4860e2de">{{allPrincipal}}</label> <label style="float: right" class="_span data-v-4860e2de">{{allCapital}}</label></view>
+      <van-cell title="贷款模式" is-link="true" value="{{type}}" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}" class="_van-cell data-v-4860e2de"></van-cell>
+      <van-cell title="首付占比(成)" is-link="true" value="{{rate}}" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}" class="_van-cell data-v-4860e2de"></van-cell>
+      <van-cell title="贷款利率" is-link="true" value="{{lilv}}" bindtap="handleProxy" data-eventid="{{'4'}}" data-comkey="{{$k}}" class="_van-cell data-v-4860e2de"></van-cell>
+      <van-cell title="贷款年限(年)" is-link="true" value="{{years}}" bindtap="handleProxy" data-eventid="{{'5'}}" data-comkey="{{$k}}" class="_van-cell data-v-4860e2de"></van-cell>
+      <van-cell-group wx:if="{{show1}}" border="false" style="border: none!important;" class="_van-cell-group data-v-4860e2de">
+        <van-field style="border: none!important;" border="false" value="{{allMoney}}" label="房款总额(万)" type="textarea" rows="1" autosize bindchange="handleProxy" input-align="right" data-eventid="{{'6'}}" data-comkey="{{$k}}" class="_van-field data-v-4860e2de"></van-field>
+      </van-cell-group>
+      <van-cell-group wx:if="{{show2}}" border="false" style="border: none!important;" class="_van-cell-group data-v-4860e2de">
+        <van-field style="border: none!important;" border="false" value="{{dMoney}}" label="贷款总额(万)" type="textarea" rows="1" autosize bindchange="handleProxy" input-align="right" data-eventid="{{'7'}}" data-comkey="{{$k}}" class="_van-field data-v-4860e2de"></van-field>
+      </van-cell-group>
+      <van-cell-group wx:if="{{show3}}" style="border: none!important;" class="_van-cell-group data-v-4860e2de">
+        <van-field border="false" value="{{sMoney}}" label="商业贷款(万)" type="textarea" rows="1" autosize bindchange="handleProxy" input-align="right" data-eventid="{{'8'}}" data-comkey="{{$k}}" class="_van-field data-v-4860e2de"></van-field>
+      </van-cell-group>
+      <van-cell-group wx:if="{{show3}}" style="border: none!important;" class="_van-cell-group data-v-4860e2de">
+        <van-field border="false" value="{{gMoney}}" label="公积金贷款(万)" type="textarea" rows="1" autosize bindchange="handleProxy" input-align="right" data-eventid="{{'9'}}" data-comkey="{{$k}}" class="_van-field data-v-4860e2de"></van-field>
+      </van-cell-group>
+      <view style="text-align:center;margin-top: 1rem;margin-bottom: 1rem" bindtap="handleProxy" data-eventid="{{'10'}}" data-comkey="{{$k}}" class="_div data-v-4860e2de">
+        <van-button type="default" class="_van-button data-v-4860e2de">开始计算</van-button>
+      </view>
+    </van-tabs>
+  </view>
+</template>

@@ -1,0 +1,24 @@
+
+.conetnt.data-v-4860e2de {
+  text-align: center;
+  padding: 50rpx 0;
+  font-size: 50rpx;
+}
+.tip.data-v-4860e2de {
+  font-size: 30rpx;
+}
+.blue.data-v-4860e2de {
+  background: cornflowerblue;
+}
+.tip-top.data-v-4860e2de,
+.tip-bottom.data-v-4860e2de {
+  background-color: #10AEFF;
+  color: white;
+  padding: 10rpx 20rpx;
+}
+.tip-top.data-v-4860e2de {
+  font-size: 30rpx;
+}
+.tip-bottom.data-v-4860e2de {
+  font-size: 40rpx;
+}

@@ -1,0 +1,22 @@
+
+.content {
+	text-align: center;
+	height: 400rpx;
+}
+.logo {
+	height: 200rpx;
+	width: 200rpx;
+	margin-top: 200rpx;
+	margin-bottom: 80rpx;
+}
+.title {
+	font-size: 36rpx;
+	color: #8f8f94;
+}
+input{
+	padding: 0.3rem 0;
+	border-radius: 0.1rem;
+	border: 1px solid #8F8F94;
+	margin-bottom: 1rem;
+}
+

@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/home/main",
+    "pages/logs/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小花纯粹房贷",
+    "backgroundColor": "#eeeeee"
+  }
+}

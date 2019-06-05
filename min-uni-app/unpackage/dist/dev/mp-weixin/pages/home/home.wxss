@@ -1,0 +1,21 @@
+
+.content.data-v-791b8bc4{
+	text-align: left
+}
+.addItem.data-v-791b8bc4{
+	background-color: #10AEFF;
+	color: white;
+	padding: 0.3rem 0.3rem;
+	border-radius: 0.1rem;
+	margin: 1rem 3rem;
+	text-align: center;
+}
+.clear.data-v-791b8bc4{
+	display: inline-block;
+	float: right;
+}
+.show.data-v-791b8bc4{
+	display: inline-block;
+}
+
+

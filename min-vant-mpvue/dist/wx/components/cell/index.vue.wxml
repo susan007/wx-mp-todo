@@ -1,0 +1,12 @@
+<template name="5a84183a">
+  <view class="_div data-v-40eba1bd">
+    {{test}}
+    <van-cell value="{{value}}" icon="shop-o" is-link class="_van-cell data-v-40eba1bd">
+      <view style="float: left" class="_div data-v-40eba1bd"><label class="_span data-v-40eba1bd custom-text">单元格{{ label }}</label>
+        <van-tag type="danger" class="_van-tag data-v-40eba1bd">标志{{ tag }}</van-tag>
+      </view> <template slot="title"> mpvue为什么不识别template呢？ <label class="_span data-v-40eba1bd custom-text">单元格{{ label }}</label>
+        <van-tag type="danger" class="_van-tag data-v-40eba1bd">标志{{ tag }}</van-tag>
+      </template>
+    </van-cell>
+  </view>
+</template>
