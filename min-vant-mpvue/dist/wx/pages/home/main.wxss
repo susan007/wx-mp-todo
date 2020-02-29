@@ -1,24 +1,27 @@
 
-.conetnt.data-v-4860e2de {
+.conetnt.data-v-761e4ea7 {
   text-align: center;
   padding: 50rpx 0;
   font-size: 50rpx;
 }
-.tip.data-v-4860e2de {
+.tip.data-v-761e4ea7 {
   font-size: 30rpx;
 }
-.blue.data-v-4860e2de {
-  background: cornflowerblue;
+.blue.data-v-761e4ea7 {
+  background: #1989FA;
 }
-.tip-top.data-v-4860e2de,
-.tip-bottom.data-v-4860e2de {
-  background-color: #10AEFF;
+.btn.data-v-761e4ea7 {
+  border-radius: 6rpx;
+}
+.tip-top.data-v-761e4ea7,
+.tip-bottom.data-v-761e4ea7 {
+  background-color: #1989FA;
   color: white;
   padding: 10rpx 20rpx;
 }
-.tip-top.data-v-4860e2de {
+.tip-top.data-v-761e4ea7 {
   font-size: 30rpx;
 }
-.tip-bottom.data-v-4860e2de {
+.tip-bottom.data-v-761e4ea7 {
   font-size: 40rpx;
 }

@@ -6,7 +6,7 @@
       <van-picker :columns="columns" @change="pickerOnChange" />
     </van-popup>
 
-    <van-tabs v-if="showTabs" type="card" color="#10AEFF" :active="active" @change="tabChange">
+    <van-tabs v-if="showTabs" type="card" color="#1989FA" :active="active" @change="tabChange">
       <!--tab切换栏-->
       <van-tab :title="principal">
       </van-tab>
@@ -44,6 +44,7 @@
       <!--房款总额-->
       <van-cell-group v-if="show1"  border="false" style="border: none!important;">
         <van-field
+          clearable
           style="border: none!important;"
           border="false"
           :value="allMoney"
@@ -59,6 +60,7 @@
       <!--需贷款总额-->
       <van-cell-group v-if="show2"  border="false" style="border: none!important;">
         <van-field
+         clearable
           style="border: none!important;"
           border="false"
           :value="dMoney"
@@ -74,6 +76,7 @@
       <!--房款总额-->
       <van-cell-group v-if="show3" style="border: none!important;">
         <van-field
+          clearable
           border="false"
           :value="sMoney"
           label="商业贷款(万)"
@@ -88,6 +91,7 @@
       <!--房款总额-->
       <van-cell-group v-if="show3" style="border: none!important;">
         <van-field
+          clearable
           border="false"
           :value="gMoney"
           label="公积金贷款(万)"
@@ -100,7 +104,7 @@
       </van-cell-group>
 
       <div style="text-align:center;margin-top: 1rem;margin-bottom: 1rem"  @click="calculation">
-        <van-button type="default">开始计算</van-button>
+        <van-button type="info">开始计算</van-button>
       </div>
 
     </van-tabs>
@@ -411,11 +415,15 @@
   }
 
   .blue{
-    background: cornflowerblue;
+    background: #1989FA;
+  }
+
+  .btn {
+    border-radius: 3px;
   }
 
   .tip-top, .tip-bottom{
-    background-color: #10AEFF;
+    background-color: #1989FA;
     color: white;
     padding: 0.1rem 0.2rem;
   }
